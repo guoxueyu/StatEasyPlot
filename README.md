@@ -10,6 +10,8 @@ StatEasyPlot uses [ggplot2] [ggrepel] and [ggsci] to make plots:
 - `sv_count()`
 
 [ggplot2]: http://ggplot2.tidyverse.org/
+[ggrepel]: https://github.com/slowkow/ggrepel
+[ggsci]:https://github.com/nanxstats/ggsci
 
 
 ## Installation
