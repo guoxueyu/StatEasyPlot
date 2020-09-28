@@ -20,10 +20,10 @@ it from GitHub:
 ```{r install-github, echo=TRUE, eval=FALSE}
 # Use the devtools package
 # install.packages("devtools")
-devtools::install_github("guoxueyu/StatEasyPlot")
+devtools::install_github("guoxueyu/StatEasyPlot/StatEasyPlot")
 ```
 
-[github]: https://github.com/guoxueyu/StatEasyPlot
+[github]: https://github.com/guoxueyu/StatEasyPlot/StatEasyPlot
 
 ## Usage
 See the [Examples] part to learn more about how to use ggrepel in your project.
