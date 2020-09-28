@@ -39,6 +39,7 @@ The input file of this function has no header and contains two columns, as shown
 |...				 | ...
 
 line_plot <- function(data,ylab_str,ymin,ymax){}
+
 p <- line_plot("path/to/your/input","the ylab title",0,25)
 
 
