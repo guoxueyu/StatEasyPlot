@@ -38,10 +38,7 @@ The input file of this function has no header and contains two columns, as shown
 |samplename2         | 20
 |...				 | ...
 
-line_plot <- function(data,ylab_str,ymin,ymax){
-	'''
-	p
-}
+line_plot <- function(data,ylab_str,ymin,ymax){}
 p <- line_plot("path/to/your/input","the ylab title",0,25)
 
 
@@ -55,10 +52,7 @@ The input file of this function has no header and contains three columns, as sho
 |...                 | ...				   |...
 
 
-lines_plot <- function(data,ylab_str,order_type){
-	'''
-	p
-}
+lines_plot <- function(data,ylab_str,order_type){}
 
 p <- lines_plot("path/to/your/input","the ylab title","type name used for ordering")
 
@@ -71,10 +65,7 @@ The input file of this function has no header and contains two columns, as shown
 |samplename2         | 20
 |...                 | ...
 
-histogram_plot <-function(data,ylab_str,his_width){
-	'''
-	p
-}
+histogram_plot <-function(data,ylab_str,his_width){}
 
 p <- histogram_plot("path/to/your/input","the ylab title",0.2)
 
@@ -88,10 +79,7 @@ The input file of this function has no header and contains three columns, as sho
 |samplename2         | 20                  |type2
 |...                 | ...                 |...
 
-oneline_histogram_plot <- function(data,ylab_str,line_type,histogram_type,order_type,ymin,ymax){
-	'''
-	p
-}
+oneline_histogram_plot <- function(data,ylab_str,line_type,histogram_type,order_type,ymin,ymax){}
 
 p <- oneline_histogram_plot("path/to/your/input","the ylab title","the type name for geom_line()","the type name for geom_histogram()","the type name for ordering",ymin,ymax)
 
@@ -113,9 +101,6 @@ p <- oneline_histogram_plot("path/to/your/input","the ylab title","the type name
 |sample2             |217                  |OTHER
 |sample2             |11368                |SUM
 
-sv_count <- function(data,ylab_str){
-	'''
-	p
-}
+sv_count <- function(data,ylab_str){}
 
 p <- sv_count("path/to/your/input","sv number")
